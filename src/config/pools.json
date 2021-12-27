@@ -1,0 +1,624 @@
+{
+  "available": [
+    "0x33e18a092a93ff21ad04746c7da12e35d34dc7c4",
+    "0xe4f726adc8e89c6a6017f01eada77865db22da14",
+    "0x8d1ce361eb68e9e05573443c407d4a3bed23b033",
+    "0x78f225869c08d478c34e5f645d07a87d3fe8eb78",
+    "0x17525e4f4af59fbc29551bc4ece6ab60ed49ce31",
+    "0xad6a626ae2b43dcb1b39430ce496d2fa0365ba9c",
+    "0x0327112423f3a68efdf1fcf402f6c5cb9f7c33fd",
+    "0x9a48bd0ec040ea4f1d3147c025cd4076a2e71e3e",
+    "0x1083d743a1e53805a95249fef7310d75029f7cd6"
+    
+    
+  ],
+  "selectable": [
+    "0x33e18a092a93ff21ad04746c7da12e35d34dc7c4",
+    "0xe4f726adc8e89c6a6017f01eada77865db22da14",
+    "0x8d1ce361eb68e9e05573443c407d4a3bed23b033",
+    "0x78f225869c08d478c34e5f645d07a87d3fe8eb78",
+    "0xad6a626ae2b43dcb1b39430ce496d2fa0365ba9c",
+    "0x0327112423f3a68efdf1fcf402f6c5cb9f7c33fd",
+    "0x9a48bd0ec040ea4f1d3147c025cd4076a2e71e3e",
+    "0x1083d743a1e53805a95249fef7310d75029f7cd6"
+  ],
+  "default": "0xad6a626ae2b43dcb1b39430ce496d2fa0365ba9c",
+  "0x1083d743a1e53805a95249fef7310d75029f7cd6": {
+    "symbol": "SLICE",
+    "useMintOverBuy": true,
+    "isGoverningMining": true,
+    "buyButton": false,
+    "name": "PieDAO Reward Pie",
+    "description": "The Official Reward Pie for Dough Staking",
+    "composition": [
+      {"symbol":"PLAY", "coingeckoId":"metaverse-nft-index", "address":"0x33e18a092a93ff21ad04746c7da12e35d34dc7c4", "coingeckoImageId": "14590"}
+    ],
+    "docs": "https://raw.githubusercontent.com/pie-dao/docs/master/current-pies/btc%2B%2B.md"
+  },  
+  "0x33e18a092a93ff21ad04746c7da12e35d34dc7c4": {
+    "symbol": "PLAY",
+    "isExperipie": true,
+    "name": "Metaverse NFT Index",
+    "description": "Complete exposure to the Metaverse and NFTs. In collab with NFTX",
+    "useMintOverBuy": true,
+    "buyButton": true,
+    "useRecipe": true,
+    "swapEnabled": false,
+    "swapFees": "0.2",
+    "streamingFees": "1%",
+    "coingeckoId": "metaverse-nft-index",
+    "composition": [
+      {"symbol":"MANA","coingeckoId":"decentraland", "address":"0x0f5d2fb29fb7d3cfee444a200298f468908cc942", "coingeckoImageId": ""},
+      {"symbol":"ENJ","coingeckoId":"enjincoin","address":"0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c", "coingeckoImageId": ""},
+      {"symbol":"SAND","coingeckoId":"the-sandbox","address":"0x3845badAde8e6dFF049820680d1F14bD3903a5d0", "coingeckoImageId": ""},
+      {"symbol":"AXS","coingeckoId":"axie-infinity","address":"0xBB0E17EF65F82Ab018d8EDd776e8DD940327B28b", "coingeckoImageId": ""},
+      {"symbol":"ILV","coingeckoId":"illuvium","address":"0x767fe9edc9e0df98e07454847909b5e959d7ca0e", "coingeckoImageId": ""},
+      {"symbol":"AUDIO","coingeckoId":"audius","address":"0x18aaa7115705e8be94bffebde57af9bfc265b998", "coingeckoImageId": ""},
+      {"symbol":"GALA","coingeckoId":"gala","address":"0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA", "coingeckoImageId": "", "decimals": 8},
+      {"symbol":"YGG","coingeckoId":"yield-guild-games","address":"0x25f8087ead173b73d6e8b84329989a8eea16cf73", "coingeckoImageId": ""}
+    ],
+    "docs": "https://raw.githubusercontent.com/pie-dao/docs/master/current-pies/btc%2B%2B.md"
+  },
+  "0x0327112423f3a68efdf1fcf402f6c5cb9f7c33fd": {
+    "symbol": "BTC++",
+    "isExperipie": false,
+    "name": "Bitcoin Index Pie",
+    "useMintOverBuy": true,
+    "buyButton": true,
+    "useRecipe": false,
+    "swapEnabled": false,
+    "swapFees": "0.2",
+    "streamingFees": "0",
+    "coingeckoId": "piedao-btc",
+    "composition": [
+      {
+        "address": "0x3212b29E33587A00FB1C83346f5dBFA69A458923",
+        "buyLink": "https://tokenlon.im",
+        "color": "#58a4fc",
+        "percentage": 25,
+        "symbol": "imBTC",
+        "coingeckoId": "the-tokenized-bitcoin",
+        "coingeckoImageId": 10702
+      },
+      {
+        "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+        "color": "#fd6761",
+        "percentage": 25,
+        "symbol": "WBTC",
+        "coingeckoId": "wrapped-bitcoin",
+        "coingeckoImageId": 7598
+      },
+      {
+        "address": "0x5228a22e72ccC52d415EcFd199F99D0665E7733b",
+        "color": "#6beab1",
+        "percentage": 25,
+        "symbol": "pBTC",
+        "coingeckoId": "ptokens-btc",
+        "coingeckoImageId": 10805
+      },
+      {
+        "address": "0xfE18be6b3Bd88A2D2A7f928d00292E7a9963CfC6",
+        "color": "#c4ccce",
+        "percentage": 25,
+        "symbol": "sBTC",
+        "coingeckoId": "sbtc",
+        "coingeckoImageId": 8838
+      }
+    ],
+    "docs": "https://raw.githubusercontent.com/pie-dao/docs/master/current-pies/btc%2B%2B.md"
+  },
+  "0x9a48bd0ec040ea4f1d3147c025cd4076a2e71e3e": {
+    "symbol": "USD++",
+    "isExperipie": true,
+    "useMintOverBuy": true,
+    "buyButton": true,
+    "name": "USD Index Pie",
+    "useRecipe": false,
+    "swapEnabled": false,
+    "streamingFees": "0",
+    "swapFees": "0",
+    "tradingViewFormula": "(0.4722*KRAKEN:USDCUSD+0.2042*KRAKEN:DAIUSD+0.2858*BITTREX:TUSDUSD+0.0378*KUCOIN:SUSDUSDT)",
+    "mapDynamicTradingViewFormula": {
+      "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": "KRAKEN:USDCUSD",
+      "0x6B175474E89094C44Da98b954EedeAC495271d0F": "KRAKEN:DAIUSD",
+      "0x0000000000085d4780B73119b644AE5ecd22b376": "BITTREX:TUSDUSD",
+      "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51": "KUCOIN:SUSDUSDT"
+    },
+    "composition": [
+      {
+        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "percentage": 47.22,
+        "decimals": 6,
+        "color": "#58a4fc",
+        "symbol": "USDC",
+        "coingeckoId": "usd-coin",
+        "coingeckoImageId": 6319
+      },
+      {
+        "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "percentage": 20.42,
+        "color": "#fd6761",
+        "symbol": "DAI",
+        "coingeckoId": "dai",
+        "coingeckoImageId": 9956
+      },
+      {
+        "address": "0x0000000000085d4780B73119b644AE5ecd22b376",
+        "percentage": 28.58,
+        "color": "#6beab1",
+        "symbol": "TUSD",
+        "coingeckoId": "true-usd",
+        "coingeckoImageId": 3449
+      },
+      {
+        "address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
+        "percentage": 3.78,
+        "color": "#c4ccce",
+        "symbol": "sUSD",
+        "coingeckoId": "nusd",
+        "coingeckoImageId": 5013
+      }
+    ],
+    "docs": "https://raw.githubusercontent.com/pie-dao/docs/master/current-pies/usd%2B%2B.md",
+    "landingLinks": [
+      {
+        "label": "Tutorial: How to Mint USD++",
+        "url": "https://medium.com/piedao/how-to-mint-usd-70501ad3db4e?source=collection_home---6------0-----------------------"
+      },
+      {
+        "label": "Latest rebalance proposal",
+        "url": "https://forum.piedao.org/t/usd-v2-the-stablecoin-basket/116/6?u=alexintosh"
+      }
+    ]
+  },
+
+  "0x17525e4f4af59fbc29551bc4ece6ab60ed49ce31": {
+    "symbol": "YPIE",
+    "name": "Yearn Ecosystem Pie",
+    "description": "Complete exposure to the growing Yearn network.",
+    "coingeckoId": "piedao-yearn-ecosystem-pie",
+    "useMintOverBuy": false,
+    "buyButton": true,
+    "useRecipe": true,
+    "streamingFees": "0",
+    "isExperipie": true,
+    "swapFees": "0.1",
+    "swapEnabled": false,
+    "composition": [
+      {
+        "symbol": "YFI",
+        "color": "#0171F5",
+        "coingeckoImageId": 11849,
+        "coingeckoId": "yearn-finance",
+        "address": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
+        "percentage": 18.35,
+        "decimals": 18
+      },
+      {
+        "symbol": "SUSHI",
+        "color": "#0171F5",
+        "coingeckoImageId": 12271,
+        "coingeckoId": "sushi",
+        "address": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
+        "percentage": 18.35,
+        "decimals": 18
+      },
+      {
+        "symbol": "KP3R",
+        "color": "#0171F5",
+        "coingeckoImageId": 12966,
+        "coingeckoId": "keep3rv1",
+        "address": "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
+        "percentage": 18.35,
+        "decimals": 18
+      },
+      {
+        "symbol": "AKRO",
+        "color": "#0171F5",
+        "coingeckoImageId": 3328,
+        "coingeckoId": "akropolis",
+        "address": "0x8ab7404063ec4dbcfd4598215992dc3f8ec853d7",
+        "percentage": 18.35,
+        "decimals": 18
+      },
+      {
+        "symbol": "COVER",
+        "color": "#0171F5",
+        "coingeckoImageId": 13167,
+        "coingeckoId": "cover-protocol",
+        "address": "0x5d8d9f5b96f4438195be9b99eee6118ed4304286",
+        "percentage": 18.35,
+        "decimals": 18
+      },
+      {
+        "symbol": "CREAM",
+        "color": "#0171F5",
+        "coingeckoImageId": 13167,
+        "coingeckoId": "cream-2",
+        "address": "0x2ba592f78db6436527729929aaf6c908497cb200",
+        "percentage": 18.35,
+        "decimals": 18
+      },
+      {
+        "symbol": "PICKLE",
+        "color": "#0171F5",
+        "coingeckoImageId": 13167,
+        "coingeckoId": "pickle-finance",
+        "address": "0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5",
+        "percentage": 18.35,
+        "decimals": 18
+      }
+    ],
+    "docs": "https://raw.githubusercontent.com/pie-dao/docs/master/current-pies/usd%2B%2B.md"
+  },
+
+
+  "0x992e9f1d29e2fdb57a9e09a78e122fafe3720cc5": {
+    "symbol": "DXY",
+    "name": "DeFi Index Yield",
+    "useMintOverBuy": true,
+    "buyButton": true,
+    "useRecipe": true,
+    "streamingFees": "0",
+    "isExperipie": true,
+    "swapFees": "0.1",
+    "swapEnabled": false,
+    "composition": [
+      {
+        "symbol": "COMP",
+        "decimals": 18,
+        "color": "#01D395",
+        "coingeckoId": "compound-governance-token",
+        "address": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+        "coingeckoImageId": 10775,
+        "percentage": 10.74
+      },
+      {
+        "symbol": "Aave",
+        "color": "#AE56A0",
+        "coingeckoImageId": 1365,
+        "coingeckoId": "aave",
+        "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+        "decimals": 18,
+        "percentage": 16.19
+      },
+      {
+        "symbol": "UNI",
+        "color": "#FD1782",
+        "coingeckoImageId": 12504,
+        "coingeckoId": "uniswap",
+        "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+        "decimals": 18,
+        "percentage": 13.19
+      },
+      {
+        "symbol": "LINK",
+        "coingeckoId": "chainlink",
+        "coingeckoImageId": 877,
+        "color": "#c4ccce",
+        "decimals": 18,
+        "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+        "percentage": 18.82
+      },
+      {
+        "symbol": "MKR",
+        "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+        "color": "#F4AC36",
+        "coingeckoImageId": 1364,
+        "coingeckoId": "maker",
+        "decimals": 18,
+        "percentage": 10.06
+      },
+      {
+        "symbol": "SNX",
+        "color": "#080221",
+        "coingeckoImageId": 3406,
+        "address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+        "percentage": 12.65,
+        "coingeckoId": "havven",
+        "decimals": 18
+      },
+      {
+        "symbol": "YFI",
+        "color": "#0171F5",
+        "coingeckoImageId": 11849,
+        "coingeckoId": "yearn-finance",
+        "address": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
+        "percentage": 18.35,
+        "decimals": 18
+      },
+      {
+        "symbol": "SUSHI",
+        "color": "#0171F5",
+        "coingeckoImageId": 12271,
+        "coingeckoId": "sushi",
+        "address": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
+        "percentage": 18.35,
+        "decimals": 18
+      }
+    ],
+    "docs": "https://raw.githubusercontent.com/pie-dao/docs/master/current-pies/usd%2B%2B.md"
+  },
+  "0x78f225869c08d478c34e5f645d07a87d3fe8eb78": {
+    "symbol": "DEFI+L",
+    "name": "DeFi Large Cap",
+    "description": "Large market cap projects. A premium selection of blue chip only tokens.",
+    "isExperipie": true,
+    "buyButton": true,
+    "mapDynamicTradingViewFormula": {
+      "0xc00e94Cb662C3520282E6f5717214004A7f26888": "KRAKEN:COMPUSD",
+      "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9": "GEMINI:AAVEUSD",
+      "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984": "COINBASE:UNIUSD",
+      "0x514910771AF9Ca656af840dff83E8264EcF986CA": "KRAKEN:LINKUSD",
+      "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2": "COINBASE:MKRUSD",
+      "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F": "KRAKEN:SNXUSD",
+      "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e": "COINBASE:YFIUSD"
+    },
+    "tradingViewFormula": "0.000944414144968332KRAKEN:COMPUSD+0.00322590157401873GEMINI:AAVEUSD+0.0436834437086093COINBASE:UNIUSD+0.0201081196581197KRAKEN:LINKUSD+0.000186657761947165COINBASE:MKRUSD+0.0327670984455959KRAKEN:SNXUSD+0.00000988602128292323*COINBASE:YFIUSD",
+    "useRecipe": true,
+    "coingeckoId": "piedao-defi-large-cap",
+    "swapFees": "0.1",
+    "streamingFees": "0.7",
+    "swapEnabled": false,
+    "composition": [
+      {
+        "symbol": "SUSHI",
+        "color": "#0171F5",
+        "coingeckoImageId": 12271,
+        "coingeckoId": "sushi",
+        "address": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
+        "percentage": 18.35,
+        "decimals": 18
+      },
+      {
+        "symbol": "COMP",
+        "decimals": 18,
+        "color": "#01D395",
+        "coingeckoId": "compound-governance-token",
+        "address": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+        "coingeckoImageId": 10775,
+        "percentage": 10.74
+      },
+      {
+        "symbol": "Aave",
+        "color": "#AE56A0",
+        "coingeckoImageId": 1365,
+        "coingeckoId": "aave",
+        "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+        "decimals": 18,
+        "percentage": 16.19
+      },
+      {
+        "symbol": "UNI",
+        "color": "#FD1782",
+        "coingeckoImageId": 12504,
+        "coingeckoId": "uniswap",
+        "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+        "decimals": 18,
+        "percentage": 13.19
+      },
+      {
+        "symbol": "LINK",
+        "coingeckoId": "chainlink",
+        "coingeckoImageId": 877,
+        "color": "#c4ccce",
+        "decimals": 18,
+        "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+        "percentage": 18.82
+      },
+      {
+        "symbol": "MKR",
+        "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+        "color": "#F4AC36",
+        "coingeckoImageId": 1364,
+        "coingeckoId": "maker",
+        "decimals": 18,
+        "percentage": 10.06
+      },
+      {
+        "symbol": "SNX",
+        "color": "#080221",
+        "coingeckoImageId": 3406,
+        "address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+        "percentage": 12.65,
+        "coingeckoId": "havven",
+        "decimals": 18
+      },
+      {
+        "symbol": "YFI",
+        "color": "#0171F5",
+        "coingeckoImageId": 11849,
+        "coingeckoId": "yearn-finance",
+        "address": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
+        "percentage": 18.35,
+        "decimals": 18
+      }
+    ],
+    "docs": "https://raw.githubusercontent.com/pie-dao/docs/master/current-pies/usd%2B%2B.md"
+  },
+  "0xb167f67353f71ca8b47d713878d69e8264a15ac0": {
+    "symbol": "TDEFI+S",
+    "isExperipie": false,
+    "composition": [
+      {
+        "symbol": "BAL",
+        "color": "#58a4fc",
+        "address": "0xba100000625a3754423978a60c9317c58a424e3D",
+        "percentage": 12.75
+      },
+      {
+        "symbol": "LRC",
+        "color": "#fd6761",
+        "address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
+        "percentage": 27.25
+      },
+      {
+        "symbol": "REN",
+        "color": "#6beab1",
+        "address": "0x408e41876cCCDC0F92210600ef50372656052a38",
+        "percentage": 30
+      },
+      {
+        "symbol": "UMA",
+        "color": "#c4ccce",
+        "address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
+        "percentage": 30
+      }
+    ],
+    "docs": "https://raw.githubusercontent.com/pie-dao/docs/master/current-pies/usd%2B%2B.md"
+  },
+  "0xad6a626ae2b43dcb1b39430ce496d2fa0365ba9c": {
+    "symbol": "DEFI+S",
+    "isExperipie": false,
+    "name": "DeFi Small Cap",
+    "description": "Lower market cap projects that have incredible potential for growth.",
+    "useRecipe": true,
+    "swapEnabled": false,
+    "coingeckoId": "piedao-defi-small-cap",
+    "bPool": "0x94743cfaa3fdc62e9693572314b5ee377eba5d11",
+    "swapFees": "0",
+    "streamingFees": "0.7",
+    "mapDynamicTradingViewFormula": {
+      "0xba100000625a3754423978a60c9317c58a424e3D": "FTX:BALUSD",
+      "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD": "BINANCE:LRCUSD",
+      "0x408e41876cCCDC0F92210600ef50372656052a38": "BINANCE:RENUSD",
+      "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828": "POLONIEX:UMAUSDT",
+      "0x89Ab32156e46F46D02ade3FEcbe5Fc4243B9AAeD": "BINANCE:PNTUSD",
+      "0xec67005c4E498Ec7f55E092bd1d35cbC47C91892": "KRAKEN:MLNUSD"
+    },
+    "tradingViewFormula": "0.014596375542431261*FTX:BALUSD+2.054022092615757*BINANCE:LRCUSD+1.7220962538152524*BINANCE:RENUSD+0.07306242503723467*POLONIEX:UMAUSDT+0.12718946536236797*BINANCE:PNTUSD+0.0015105607305932233*KRAKEN:MLNUSD",
+    "composition": [
+      {
+        "symbol": "BAL",
+        "color": "#58a4fc",
+        "address": "0xba100000625a3754423978a60c9317c58a424e3D",
+        "percentage": 13.75,
+        "coingeckoId": "balancer",
+        "coingeckoImageId": 11683
+      },
+      {
+        "symbol": "LRC",
+        "color": "#fd6761",
+        "address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
+        "percentage": 21.51,
+        "coingeckoId": "loopring",
+        "coingeckoImageId": 913
+      },
+      {
+        "symbol": "REN",
+        "color": "#6beab1",
+        "address": "0x408e41876cCCDC0F92210600ef50372656052a38",
+        "percentage": 27.11,
+        "coingeckoId": "republic-protocol",
+        "coingeckoImageId": 3139
+      },
+      {
+        "symbol": "UMA",
+        "color": "#c4ccce",
+        "address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
+        "percentage": 30,
+        "coingeckoId": "uma",
+        "coingeckoImageId": 10951
+      },
+      {
+        "symbol": "PNT",
+        "color": "#c4ccce",
+        "address": "0x89Ab32156e46F46D02ade3FEcbe5Fc4243B9AAeD",
+        "percentage": 4.42,
+        "coingeckoId": "pnetwork",
+        "coingeckoImageId": 11659
+      },
+      {
+        "symbol": "MLN",
+        "color": "#c4ccce",
+        "address": "0xec67005c4E498Ec7f55E092bd1d35cbC47C91892",
+        "percentage": 3.21,
+        "coingeckoId": "melon",
+        "coingeckoImageId": 605
+      }
+      
+    ],
+    "docs": "https://raw.githubusercontent.com/pie-dao/docs/master/current-pies/usd%2B%2B.md",
+    "landingLinks": [
+      {
+        "label": "Read more on Medium",
+        "url": "https://medium.com/piedao/announcing-defi-s-67ed53367364"
+      }
+    ]
+  },
+  "0xe4f726adc8e89c6a6017f01eada77865db22da14": {
+    "symbol": "BCP",
+    "isExperipie": false,
+    "coingeckoId": "piedao-balanced-crypto-pie",
+    "name": "Balanced Crypto Pie",
+    "description": "Balanced Crypto Pie. An even split between BTC, ETH, and the best of DEFI.",
+    "useRecipe": true,
+    "useMintOverBuy": false,
+    "buyButton": true,
+    "swapEnabled": true,
+    "streamingFees": "0.46",
+    "swapFees": "1",
+    "composition": [
+        {
+            "symbol": "WBTC",
+            "decimals": 8,
+            "coingeckoId": "wrapped-bitcoin",
+            "coingeckoImageId": 7598,
+            "color": "#F4AC36",
+            "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+            "percentage": 33.33
+        },
+        {
+            "symbol": "WETH",
+            "decimals": 18,
+            "color": "#0171F5",
+            "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "percentage": 33.33,
+            "coingeckoId": "weth",
+            "coingeckoImageId": 279
+        },
+        {
+            "symbol": "DEFI++",
+            "decimals": 18,
+            "color": "#FD1782",
+            "address": "0x8d1ce361eb68e9e05573443c407d4a3bed23b033",
+            "percentage": 33.34,
+            "isPie": true
+        }
+    ],
+    "docs": "https://raw.githubusercontent.com/pie-dao/docs/master/current-pies/usd%2B%2B.md"
+  },
+  "0x8d1ce361eb68e9e05573443c407d4a3bed23b033": {
+    "symbol": "DEFI++",
+    "description": "The most diversified DEFI index on the market. Both large and small market caps.",
+    "isExperipie": false,
+    "name": "DeFi Index Pie ",
+    "useRecipe": true,
+    "streamingFees": "0",
+    "useMintOverBuy": true,
+    "buyButton": true,
+    "swapEnabled": true,
+    "coingeckoId": "piedao-defi",
+    "swapFees": "1",
+    "composition": [
+      {
+        "symbol": "DEFI+S",
+        "address": "0xad6a626ae2b43dcb1b39430ce496d2fa0365ba9c",
+        "color": "#58a4fc",
+        "coingeckoId": "piedao-defi-small-cap",
+        "percentage": 30,
+        "isPie": true
+      },
+      {
+        "symbol": "DEFI+L",
+        "address": "0x78f225869c08d478c34e5f645d07a87d3fe8eb78",
+        "color": "#6beab1",
+        "coingeckoId": "piedao-defi-large-cap",
+        "coingeckoImageId": 1,
+        "percentage": 70,
+        "isPie": true
+      }
+    ],
+    "docs": "https://raw.githubusercontent.com/pie-dao/docs/master/current-pies/usd%2B%2B.md"
+  }
+}

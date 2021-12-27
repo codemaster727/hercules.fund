@@ -1,0 +1,84 @@
+{
+  "brands": {
+    "aragon": "Aragon",
+    "balancer": "Balancer Labs",
+    "discord": "Discord",
+    "etherscan": "Etherscan",
+    "github": "Github",
+    "medium": "Medium",
+    "piedao": "PieDAO",
+    "quantstamp": "Quantstamp",
+    "twitter": "Twitter",
+    "telegram": "Telegram"
+  },
+  "defi": {
+    "liquidity": {
+      "mining": "Liquidity Mining"
+    }
+  },
+  "general": {
+    "add": "Add",
+    "allocation": "Allocation",
+    "amount": "Amount",
+    "asset": "Asset",
+    "balance": "Balance",
+    "breakdown": "Breakdown",
+    "close": "Close",
+    "docs": "Docs",
+    "documentation": "Documentation",
+    "duration": {
+      "annualized": "Annualized"
+    },
+    "forum": "Forum",
+    "home": "Home",
+    "info": "Info",
+    "liquidity": "Liquidity",
+    "loading": "Loading",
+    "logo": "Logo",
+    "mined": "Mined",
+    "multi": "Multi",
+    "program": "Program",
+    "returns": "Returns",
+    "single": "Single",
+    "successfully": "Successfully",
+    "tokens": "Tokens",
+    "whitepaper": "Whitepaper",
+    "withdraw": "Remove Liquidity",
+    "withdrawn": "Withdrawn",
+    "your": "Your",
+    "vision": "vision"
+  },
+  "piedao": {
+    "aragonLink": "piedao.aragon",
+    "audit.result": "Audit result",
+    "check.contract.on": "Check the contract on",
+    "confirming": "Confirming...",
+    "max.mint.notice": "At the moment you only have enough funds to mint",
+    "max.withdraw.notice": "At the moment you only have enough funds to withdraw",
+    "more.tokens.notice": "To proceed you will need more of these tokens",
+    "multi.asset.according.to.allocation": "according to its allocation",
+    "multi.asset.all.underlying": "to all underlying assets",
+    "multi.asset.enables.minting": "Multi Asset entry enables you to mint",
+    "multi.asset.enables.withdraw": "Multi Asset enables you to withdraw",
+    "please.connect.wallet": "Please connect a wallet and try again.",
+    "single.asset.coming.soon": "Single Asset entry / exit coming soon!"
+  },
+  "simulator": {
+    "treasury.liquidity.deployed": "<b>Treasury Liquidity Deployed</b><br /><div class='font-thin'><div class='font-thin'>PieDAO is managing a treasury accruing funds  from product fees and other services the organisation offers. A committee of experts is deploying these assets into yield generating strategies, so you can also make $$$</div>",
+    "rewards.distribution": "<b>Rewards Distribution</b><br /><div class='font-thin'>Revenue coming from fees and yield farming will be, for the most part, distributed monthly directly to veDOUGH holders in the form of rewardsPie that, among others, might contain BAL, SUSHI, CRV, and DOUGH.<br /><br />Distributed to veDOUGH holders 60%<br />Used to compound the treasury 25%</div>",
+    "total.staked.ve.dough": "<b>Total Staked veDOUGH</b><br /><div class='font-thin'>Once staked, DOUGH becomes veDOUGH in proportion to the locking period. If locked for 3 years 1 DOUGH = 1 veDOUGH.</div>",
+    "total.staking.commitment": "<b>Total Staking Commitment</b><br /><div class='font-thin'>Users can decide to stake their DOUGH within different locking periods, which will result in different amounts of veDOUGH held (the more veDOUGH you hold, the more voting power and monthly rewards you earn).</div>",
+    "expected.apr": "<b>Expected Treasury Apr</b><br /><div class='font-thin'>The expected growth rate of the treasury, thanks to the farming activities and revenue coming from Pies and other custom services the DAO is providing.</div>",
+    "rewards.unclaimed": "<b>Rewards Unclaimed</b><br /><div class='font-thin'>Rewards will be calculated monthly and become claimable to veDOUGH holders who have been actively participating in governance. If a member does not participate for more than three months, they lose the right to claim rewards from the previous months - those rewards will instead be distributed to active members.</div>",
+    "your.staked.dough": "<b>Your Staked DOUGH</b><br /><div class='font-thin'>The amount of DOUGH you are going to stake. Please note that the resulting amount of veDOUGH will be determined by the commitment period.</div>",
+    "your.staking.commitment": "<b>Your Staking Commitment</b><br /><div class='font-thin'>This is the amount of time you stake your DOUGH. The higher the commitment, the higher the amount of veDOUGH received - therefore the higher the voting power and monthly rewards.</ br>You will receive: 100000.00 veDOUGH | For a 3 year commitment: 1 DOUGH = 1 veDOUGH</div>"
+  },
+  "staking": {
+    "claim.vote.you_voted": "<b>You voted</b><br /><div class='font-thin'><div class='font-thin'>You are eligible for next month's reward distribution as you participated on PieDAO governance through voting.</div>",
+    "claim.vote.no_votes": "<b>No open votes</b><br /><div class='font-thin'><div class='font-thin'>Check this page later to find open votes. Remember you will need to vote on at least one issue per month in order to be eligible to claim rewards.</div>",
+    "claim.vote.cannot_votes": "<b>You can't vote</b><br /><div class='font-thin'><div class='font-thin'>There are some open votes. However they were created before you staked DOUGH therefore you can't vote on the current issues. <br />Check this page later to find open votes. Remember you will need to vote on at least one issue per month in odred to be eligible to claim rewards. </div>",
+    "claim.vote.need_to_vote": "<b>You need to vote</b><br /><div class='font-thin'><div class='font-thin'>Hurry up, you did not vote this month yet. Remember you will need to vote on at least one issue per month in order to be eligible to claim rewards.<br /><br />Check the active proposals in <b><a target='_blank' href='https://snapshot.org/#/piedao.eth'>PieDAO's Snapshot</a></b> page.</div>",
+    "claim.vote.snapshot_error": "Sorry, the snapshot API is having some trouble right now, please try again later"
+  },
+  "vesting_ve_dough": "As per <u><a href='https://snapshot.org/#/piedao.eth/proposal/0xaf04cb5391de0cb3d9c9e694a2bf6e5d20f0e4e1c48e0a1d6f85c5233aa580b6'>(PIP-67)</a></u> eDOUGH vested for over 6 months is eligible to be bridged to staked Dough (veDough) with a fixed time lock of 36 months (3 years)."
+}
